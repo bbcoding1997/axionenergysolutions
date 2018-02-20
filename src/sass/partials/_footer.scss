@@ -1,0 +1,80 @@
+.footer {
+  h2 {
+    border-bottom: 1px solid $white;
+    color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  ul {
+    list-style: none;
+    list-style-image: none;
+    padding-left: 0;
+
+    li {
+      font-size: 12px;
+    }
+
+    a {
+      color: $white;
+      font-weight: 200;
+
+      :hover {
+        color: $primary;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.site-map {
+  h2 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $white;
+    font-size: 12px;
+  }
+
+  ul {
+    list-style: none;
+    list-style-image: none;
+    padding-left: 0;
+
+    li {
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    a {
+      color: $white;
+      font-weight: 200;
+
+      :hover {
+        color: $primary;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .contact {
+    a {
+      color: $white;
+      font-weight: 400;
+
+      &:hover {
+        color: $primary;
+        text-decoration: none;
+      }
+    }
+  }
+}

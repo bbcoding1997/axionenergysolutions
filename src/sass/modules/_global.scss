@@ -1,0 +1,296 @@
+// ===================
+// Text Styles
+// ===================
+body {
+  font-weight: 200;
+}
+h2 {
+  font-weight: 200;
+
+  strong {
+    font-weight: 800;
+  }
+}
+
+ul {
+  -webkit-padding-start: 0px;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+  .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+// ===================
+// Maincontent Row
+// ===================
+.maincontent-row {
+  padding: 30px 0;
+  @media screen and (min-width: $phone) {
+    padding: 60px 0;
+  }
+
+  &.no-button-hero {
+    padding: 90px 0;
+  }
+}
+
+// ===================
+// Content Container
+// ===================
+
+.content-container {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+  @media screen and (min-width: $phone) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .content-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .content-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-container {
+    width: 1170px;
+  }
+}
+
+// ==================
+// Text Color
+// ==================
+
+.tc-primary {
+  color: $primary;
+}
+
+.tc-primary-dark {
+  color: $primary-dark;
+}
+
+.tc-primary-light {
+  color: $primary-light;
+}
+
+.tc-white {
+  color: $white;
+}
+
+.tc-black {
+  color: $black;
+}
+
+// =================
+// Background Color
+// =================
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-dark {
+  background-color: $dark;
+}
+
+.bg-dark2 {
+  background-color: $dark2;
+}
+
+.bg-gray {
+  background-color: $gray-300;
+}
+
+.bg-charcole {
+  background-color: $charcole;
+}
+
+.bg-primary {
+  background-color: $primary;
+}
+
+.bg-primary-dark {
+  background-color: $primary-dark;
+}
+
+.bg-primary-light {
+  background-color: $primary-light;
+}
+
+// =================
+// Padding classes
+// =================
+
+.padding-bottom {
+  padding-bottom: $padding-bottom;
+}
+
+.padding-double-bottom {
+  padding-bottom: $padding-double-bottom;
+}
+
+.padding-top {
+  padding-top: $padding-top;
+}
+
+.padding-double-top {
+  padding-top: $padding-double-top;
+}
+
+.padding-left {
+  padding-left: $padding-left;
+}
+
+.padding-double-left {
+  padding-left: $padding-double-left;
+}
+
+.padding-right {
+  padding-right: $padding-right;
+}
+
+.padding-double-right {
+  padding-right: $padding-double-right;
+}
+
+.padding-side {
+  padding-left: $padding-left;
+  padding-right: $padding-right;
+}
+
+.padding-double-side {
+  padding-left: $padding-double-left;
+  padding-right: $padding-double-right;
+}
+
+.padding-top-60 {
+  padding-top: $padding-top-bottom-60;
+}
+
+.padding-tb-60 {
+  padding-bottom: $padding-top-bottom-60;
+  padding-top: $padding-top-bottom-60;
+}
+
+.no-padding {
+  padding: $no-padding !important;
+}
+
+.tablet-no-padding {
+  @media screen and (max-width: $tablet) {
+    padding: $no-padding !important;
+  }
+}
+
+.mobile-no-padding {
+  @media screen and (max-width: $phone) {
+    padding: $no-padding !important;
+  }
+}
+
+// =================
+// Margin classes
+// =================
+
+.no-margin {
+  margin: $no-margin;
+}
+
+.no-margin-bottom {
+  margin-bottom: $no-margin;
+}
+
+.margin-bottom {
+  margin-bottom: $margin-bottom;
+}
+
+.margin-double-bottom {
+  margin-bottom: $margin-double-bottom;
+}
+
+.margin-top {
+  margin-top: $margin-top;
+}
+
+.margin-double-top {
+  margin-top: $margin-double-top;
+}
+
+.margin-left {
+  margin-left: $margin-left;
+}
+
+.margin-double-left {
+  margin-left: $margin-double-left;
+}
+
+.margin-right {
+  margin-right: $margin-right;
+}
+
+.margin-double-right {
+  margin-right: $margin-double-right;
+}
+
+.margin-top-bottom-60 {
+  margin-bottom: $margin-top-bottom-60;
+  margin-top: $margin-top-bottom-60;
+}
+
+.tablet-no-margin {
+  @media screen and (max-width: $tablet) {
+    margin: $no-margin !important;
+  }
+}
+
+.mobile-no-margin {
+  @media screen and (max-width: $phone) {
+    margin: $no-margin !important;
+  }
+}
+
+// =================
+// Span Underline
+// =================
+
+hr.underline {
+  width: 80px;
+  background-color: $primary;
+  height: 4px;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+// =================
+// Background
+// =================
+
+.cover {
+  background-size: cover;
+}
+
+.contain {
+  background-size: contain;
+}

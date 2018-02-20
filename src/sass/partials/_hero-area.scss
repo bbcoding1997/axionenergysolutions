@@ -1,0 +1,33 @@
+.hero-area {
+  background-position: 0% 60%;
+  background-size: cover;
+
+  .hero-container {
+    margin-bottom: 20em;
+    margin-top: 15em;
+
+    .hero-image {
+      position: absolute;
+      top: -200;
+      width: 80%;
+      right: 50;
+    }
+    .content {
+      color: $white;
+
+      h1 {
+        font-size: 5em;
+        font-weight: 600;
+        font-family: 'Passion One', cursive;
+        margin-bottom: 0px;
+        line-height: .8;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: 1.2em;
+        font-weight: 200;
+      }
+    }
+  }
+}
